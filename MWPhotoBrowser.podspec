@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = 'MWPhotoBrowser'
+    s.name = 'MWPhotoBrowser@Danny'
     s.version = '1.4.0'
     s.license = 'MIT'
     s.summary = 'A simple iOS photo browser with optional grid ' \
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.homepage = 'https://github.com/mwaterfall/MWPhotoBrowser'
     s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
     s.source = {
-        :git => 'https://github.com/mwaterfall/MWPhotoBrowser.git',
+        :git => 'https://github.com/DDany/MWPhotoBrowser.git',
         :tag => '1.4.0'
     }
     s.platform = :ios, '5.1.1'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.resources = 'MWPhotoBrowser/MWPhotoBrowser.bundle'
     s.requires_arc = true
     s.frameworks = 'MessageUI', 'ImageIO', 'QuartzCore', 'AssetsLibrary', 'MapKit'
-    s.dependency 'SDWebImage', '~> 3.5.4'
+    s.dependency 'SDWebImage', '~> 3.7.1'
     s.dependency 'MBProgressHUD', '~> 0.8'
     s.dependency 'DACircularProgress'
     s.dependency 'PSTCollectionView', '~> 1.2'
